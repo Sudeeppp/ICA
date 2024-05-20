@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: wheat;
+  font-family: sans-serif;
+  
+ 
+}
+
+/* Styling for the header */
+header {
+  background-color: #0D051F;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for the logo */
+.logo {
+  width: 100px;
+  /* Adjust according to your logo size */
+}
+
+/* Styling for the button */
+.button {
+  padding: 10px 20px;
+  background-color: #6f9a37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: #4d800b;
+}
+
+navbar{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+navbar div a img{
+  max-width: 100%;
+  margin-left: 50px;
+}
+
+.bt{
+  background-color: azure;
+  color: #0D051F;
+  border: solid 1px white;
+  margin-right: 20px;
+}
+.bt:hover{
+  background-color:#0D051F ;
+  color: aliceblue;
+  
+}
+section{
+  margin: 50px;
+}
+.hero{
+display: flex;
+justify-content: space-around;
+}
+.contain{
+  margin-top: 60px;
+ margin-right: 150px;
+  
+}
+.contain2{
+  margin-right: 20%;
+}
+h1{
+  font-size:50px;
+  font-weight: 200;
+}
+.heading{
+  margin-top: 5%;
+}
+
+.hero2{
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.contain3{
+  margin-top: 3%;
+}
+.b1{
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
+
+.last{
+  margin-top: 7%;
+  text-align: center;
+}
+.main{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.card{
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+}
+
+.c{
+  margin-top: 10%;
+}
+.chrome{
+  margin-top: 15%;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  padding: 5%;
+  text-align: center;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+}
+.lf{
+  margin-top: 10%;
+  text-align: center;
+}
+.cd{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.footer{
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: wheat;
+  font-family: sans-serif;
+}
+
+/* Styling for the header */
+header {
+  background-color: #0D051F;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #6f9a37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4d800b;
+}
+
+/* Navbar styles */
+navbar {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+navbar div a img {
+  max-width: 100%;
+  margin-left: 50px;
+}
+
+.bt {
+  background-color: azure;
+  color: #0D051F;
+  border: solid 1px white;
+  margin-right: 20px;
+}
+
+.bt:hover {
+  background-color: #0D051F;
+  color: aliceblue;
+}
+
+/* Main content section */
+section {
+  margin: 50px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  /* Ensures items wrap to next line on smaller screens */
+  justify-content: space-around;
+}
+
+.contain {
+  margin-top: 60px;
+  margin-right: 150px;
+}
+
+.contain2 {
+  margin-right: 20%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.heading {
+  margin-top: 5%;
+}
+
+.hero2 {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contain3 {
+  margin-top: 3%;
+}
+
+.b1 {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
+
+.last {
+  margin-top: 7%;
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* Responsive grid */
+  gap: 10px;
+}
+
+.card {
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+}
+
+.c {
+  margin-top: 10%;
+}
+
+.chrome {
+  margin-top: 15%;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  padding: 5%;
+  text-align: center;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.lf {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.cd {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+
+  /* Adjustments for smaller screens */
+  .contain {
+    margin-right: 0;
+  }
+
+  .hero,
+  .hero2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .last,
+  .main {
+    margin: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* Adjustments for even smaller screens */
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+
+  navbar {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .bt {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+
+  /* Adjustments for smaller screens */
+  .contain {
+    margin-right: 0;
+  }
+
+  .hero,
+  .hero2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .last,
+  .main {
+    margin: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* Adjustments for even smaller screens */
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+
+  navbar {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .bt {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+
+
+
